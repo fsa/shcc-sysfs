@@ -1,0 +1,5 @@
+{
+    "name": "SysFS",
+    "namespace": "FSA\\SysFSPlugin\\",
+    "description": "Получение данных из SysFS."
+}

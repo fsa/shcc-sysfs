@@ -1,0 +1,23 @@
+{
+    "name": "fsa/shcc-sysfs",
+    "description": "Получение данных из SysFS.",
+    "keywords": [
+        "shcc"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergei Fedotov",
+            "email": "fsa@tavda.info"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "FSA\\SysFSPlugin\\": "classes/"
+        }
+    },
+    "require": {
+        "fsa/shcc-framework": "dev-main"
+    }
+}
