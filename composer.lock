@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5455b2262d1d94efefc92225c22a4024",
+    "content-hash": "d79880b89ff9d625fb3d1ea8bf170807",
     "packages": [
         {
             "name": "fsa/neuron-framework",
-            "version": "dev-main",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fsa/php-neuron-framework.git",
+                "reference": "def7cb007de3a4adb7f8d349718d198cd6441c55"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/fsa/Projects/php-neuron-framework",
-                "reference": "b838defc30812c7b35aaa97b2e94c9ac13936cc1"
+                "type": "zip",
+                "url": "https://api.github.com/repos/fsa/php-neuron-framework/zipball/def7cb007de3a4adb7f8d349718d198cd6441c55",
+                "reference": "def7cb007de3a4adb7f8d349718d198cd6441c55",
+                "shasum": ""
             },
             "require": {
                 "ext-redis": "*",
@@ -24,6 +30,7 @@
                     "FSA\\Neuron\\": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -34,22 +41,28 @@
                 }
             ],
             "description": "Neuron PHP framework",
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/fsa/php-neuron-framework/issues",
+                "source": "https://github.com/fsa/php-neuron-framework/tree/v0.5.0"
+            },
+            "time": "2023-01-23T20:43:22+00:00"
         },
         {
             "name": "fsa/shcc-framework",
-            "version": "dev-main",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fsa/shcc-framework.git",
+                "reference": "0a9da64720f38326249c1a170ef28b99d5c1bb35"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/fsa/Projects/shcc-framework",
-                "reference": "aa760429b1846f3a1a8dcf6fc18b081d62979ebe"
+                "type": "zip",
+                "url": "https://api.github.com/repos/fsa/shcc-framework/zipball/0a9da64720f38326249c1a170ef28b99d5c1bb35",
+                "reference": "0a9da64720f38326249c1a170ef28b99d5c1bb35",
+                "shasum": ""
             },
             "require": {
-                "fsa/neuron-framework": "dev-main",
-                "php": "^8.1"
+                "fsa/neuron-framework": "^0.5"
             },
             "type": "library",
             "autoload": {
@@ -57,6 +70,7 @@
                     "FSA\\SmartHome\\": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -67,18 +81,17 @@
                 }
             ],
             "description": "Smart Home Framework",
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/fsa/shcc-framework/issues",
+                "source": "https://github.com/fsa/shcc-framework/tree/v0.1.0"
+            },
+            "time": "2023-01-23T21:05:38+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "fsa/shcc-framework": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
