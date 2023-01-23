@@ -1,0 +1,87 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5455b2262d1d94efefc92225c22a4024",
+    "packages": [
+        {
+            "name": "fsa/neuron-framework",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/fsa/Projects/php-neuron-framework",
+                "reference": "b838defc30812c7b35aaa97b2e94c9ac13936cc1"
+            },
+            "require": {
+                "ext-redis": "*",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FSA\\Neuron\\": "classes/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Fedotov",
+                    "email": "fsa@tavda.info"
+                }
+            ],
+            "description": "Neuron PHP framework",
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
+        },
+        {
+            "name": "fsa/shcc-framework",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/home/fsa/Projects/shcc-framework",
+                "reference": "aa760429b1846f3a1a8dcf6fc18b081d62979ebe"
+            },
+            "require": {
+                "fsa/neuron-framework": "dev-main",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FSA\\SmartHome\\": "classes/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sergei Fedotov",
+                    "email": "fsa@tavda.info"
+                }
+            ],
+            "description": "Smart Home Framework",
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "fsa/shcc-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

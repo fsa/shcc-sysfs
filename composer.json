@@ -19,5 +19,6 @@
     },
     "require": {
         "fsa/shcc-framework": "dev-main"
-    }
+    },
+    "minimum-stability": "dev"
 }
